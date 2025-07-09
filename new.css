@@ -1,0 +1,142 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://illustlive.com/photo/iphone/228.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+
+
+/* ===== Navigation Bar ===== */
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 0;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Navigation Bar ===== */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em 0;
+  text-align: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #222;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.5em;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  color: #ffcccb;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+
+/* ===== Page Container ===== */
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 2em;
+  margin: 2em auto;
+  border-radius: 15px;
+  max-width: 90%;
+  width: 600px;
+}
+
+/* ===== Headings ===== */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  background-color: rgba(224, 196, 220, 0.8);
+  display: inline-block;
+  padding: 0.3em 1em;
+  border-radius: 12px;
+  color: #000;
+}
+
+h2 {
+  margin-top: 1.5em;
+  color: #4e1048;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+/* ===== Form Fields ===== */
+input[type="email"],
+input[type="text"],
+textarea {
+  padding: 0.5em;
+  border:none;
+  border-radius: 5px;
+  width: 250px;
+  max-width: 90%;
+  margin: 0.5em 0;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9966;
+  color: white;
+  font-weight: bold;
+  margin: 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6600;
+}
+
+/* ===== Feedback Messages ===== */
+#message,
+#contact-message {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+/* ===== Lists ===== */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  margin: 1em auto;
+  display: inline-block;
+}
+
+ul li {
+  font-size: 1.1em;
+  margin-bottom: 0.6em;
+}
